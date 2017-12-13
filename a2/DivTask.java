@@ -3,13 +3,16 @@ package a2;
 import java.util.concurrent.RecursiveTask;
 
 public class DivTask extends RecursiveTask<Integer> {
+    //ds: divisor i dd: divident
     private int ds, dd;
+    private static int LLIDAR = 30;
 
     public DivTask(int _dd, int _ds) {
         ds = _ds;
         dd = _dd;
     }
 
+    //restes recursives
     public Integer divR() {
         if(ds > dd) return 0;
         else {
@@ -19,6 +22,7 @@ public class DivTask extends RecursiveTask<Integer> {
         }
     }
 
+    //restes iteratives
     public Integer divS() {
         int c = 0;
         while( dd >= ds){
@@ -31,7 +35,7 @@ public class DivTask extends RecursiveTask<Integer> {
     @Override
     protected Integer compute() {
         System.out.println(dd + "/" + ds);
-        if(dd-ds > 30) return divR();
+        if(dd-ds > LLIDAR) return divR();
         else return divS();
     }
 }
