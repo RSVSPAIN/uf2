@@ -15,7 +15,7 @@ import java.util.concurrent.ThreadPoolExecutor;
  */
 
 public class MultiplicaLlista {
-    public static final int MAX = 100;
+    public static final int MAX = 1000;
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
         ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(3);
