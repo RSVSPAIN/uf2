@@ -23,7 +23,7 @@ public class Jugar {
 
 		// Executem els 4 processos (2 de donar punts i 2 de llegir punts)
 		ScheduledExecutorService schExService = Executors.newScheduledThreadPool(3);
-		schExService.scheduleWithFixedDelay(donar, 2, 1, TimeUnit.SECONDS);
+		schExService.scheduleWithFixedDelay(donar, 2, 2, TimeUnit.SECONDS);
 		schExService.scheduleWithFixedDelay(llegir, 4, 4, TimeUnit.SECONDS);
 		schExService.scheduleWithFixedDelay(donar2, 5, 1, TimeUnit.SECONDS);
 		schExService.scheduleWithFixedDelay(llegir2, 3, 5, TimeUnit.SECONDS);
