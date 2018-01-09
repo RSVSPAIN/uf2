@@ -99,5 +99,17 @@ public class tipusProcessos {
             e.printStackTrace();
         }
 
+        //De RUNNABLE a THREAD
+        Runnable r = new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("sóc un runnable?");
+            }
+        };
+
+        Thread t = new Thread(r);
+        t.start();
+
+
     }
 }
