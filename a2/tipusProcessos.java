@@ -1,8 +1,5 @@
 package a2;
 
-import a3.Comandament;
-import a3.MembreFamilia;
-
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -68,7 +65,6 @@ public class tipusProcessos {
         //pThread p5 = new pThread("Nom");
         pThread p5 = new tipusProcessos().new pThread("fil");
         tipusProcessos tp = new tipusProcessos();
-        MembreFamilia m = new MembreFamilia(new Comandament(),"m");
 
         //crides
         p2.run();
