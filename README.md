@@ -13,3 +13,6 @@
 - ForkJoinPool i RecursiveTask: `DivTask.java Dividir.java`
 - Runnable, ScheduledExecutorService: `Jugador.java Jugar.java pDonarPuntsJugador.java pLlegirPuntsJugador.java
 `
+
+### a3
+- Semàfors amb **synchronized**: `Banc2.java`
