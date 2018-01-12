@@ -12,7 +12,7 @@ public class Mare implements Runnable {
 
 	@Override
 	public void run() {
-		if((fam.getGaletes())==0) {
+		if((fam.getGaletes())<1) {
 			fam.OmplePotGaletes(10);
 			System.out.println("Sóc la mama "+ Nom +" i he posat 10 galetes nens!\n");
 		}

@@ -22,7 +22,7 @@ public class Fill implements Runnable  {
 
 	@Override
 	public void run() {
-		if((fa.agafaGaletes(1))==0) fa.setNoHiHaGaletes();
+		if((fa.agafaGaletes(1))<1) fa.setNoHiHaGaletes();
 		System.out.println("Sóc " + Nom + " galetes que queden = " + fa.getGaletes());
 		
 	}
