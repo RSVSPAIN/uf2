@@ -16,3 +16,7 @@
 
 ### a3
 - Semàfors amb **synchronized**: `Banc2.java`
+- Monitors/Semàfors: <br>
+    `galetes/*` <br>
+    `Comandament.java MembreFamilia.java FightTV.java`
+    
