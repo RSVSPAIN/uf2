@@ -18,7 +18,8 @@
 - Semàfors amb **synchronized**: `Banc2.java`
 - Monitors/Semàfors: <br>
     `galetes/*` <br>
-    `Comandament.java MembreFamilia.java FightTV.java`
-    `filosofs/*`
-    `banymixte/*`
+    `Comandament.java MembreFamilia.java FightTV.java` <br>
+    `filosofs/*` <br>
+    `banymixte/*` <br>
+    
     
