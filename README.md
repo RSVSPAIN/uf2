@@ -19,4 +19,6 @@
 - Monitors/Semàfors: <br>
     `galetes/*` <br>
     `Comandament.java MembreFamilia.java FightTV.java`
+    `filosofs/*`
+    `banymixte/*`
     
