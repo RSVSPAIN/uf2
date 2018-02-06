@@ -21,5 +21,5 @@
     `Comandament.java MembreFamilia.java FightTV.java` <br>
     `filosofs/*` <br>
     `banymixte/*` <br>
-    
+    `taller/*` <br>
     
