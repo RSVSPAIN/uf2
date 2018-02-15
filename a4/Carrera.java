@@ -37,7 +37,7 @@ public class Carrera {
 
 		//Imprimim el campió
 		System.out.println("FC Barcelona: "+ fcb.getTemps());
-		System.out.println("Unió Colomenca d'Atletisme: "+ uca.git a());
+		System.out.println("Unió Colomenca d'Atletisme: "+ uca.getTemps());
 		String champ = ( (fcb.getTemps()) < (uca.getTemps()) )?"FC Barcelona":"Unió Colomenca";
 		System.out.println("Campió: " + champ  );
 		
